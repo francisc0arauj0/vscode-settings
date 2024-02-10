@@ -1,0 +1,36 @@
+{
+    "files.autoSave": "afterDelay",
+    "mesonbuild.downloadLanguageServer": true,
+
+    // Window
+    "window.zoomLevel": 1,
+
+    // Editor
+    "editor.lineHeight": 1.5,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80,
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": false,
+
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
+
+    // Explorer
+    "explorer.compactFolders": false,
+}

@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        // Themes & icons
+        "miguelsolorio.min-theme",
+        "pkief.material-icon-theme",
+
+        // Life savers!
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "visualstudioexptteam.vscodeintellicode",
+
+        // Others
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "formulahendry.code-runner",
+        "ritwickdey.liveserver",
+        "ms-azuretools.vscode-docker",
+        "gruntfuggly.todo-tree",
+        "wayou.vscode-todo-highlight"
+    ]
+}
