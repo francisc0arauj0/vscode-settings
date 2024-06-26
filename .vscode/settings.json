@@ -1,34 +1,60 @@
 {
-    "files.autoSave": "afterDelay",
-    "mesonbuild.downloadLanguageServer": true,
+    "window.zoomLevel": 0.8,
+    "window.menuBarVisibility": "hidden",
+    "window.commandCenter": false,
+    "window.title": "My Code",
+    "window.titleBarStyle": "custom",
 
-    // Windo
-    "window.zoomLevel": 1,
 
-    // Editor
-    "editor.lineHeight": 1.5,
-    "editor.rulers": [110, 120],
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 110,
-    "editor.renderLineHighlight": "gutter",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Min Dark",               // Min Theme - Miguel Solorio
+    "workbench.iconTheme": "symbols",                 // Symbols   - Miguel Solorio
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.layoutControl.enabled": false,
+
+
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontSize": 14,
     "editor.fontLigatures": true,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.horizontal": "hidden",
+    "editor.lineHeight": 1.2,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
     "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 2,
-    "editor.cursorBlinking": "phase",
+    "editor.cursorBlinking": "smooth",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
     "editor.cursorSmoothCaretAnimation": "on",
+
     
-    // Workbench
-    "workbench.iconTheme": "icons",
-    "workbench.colorTheme": "Min Dark",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.editor.labelFormat": "short",
-
-    // Breadcrumbs
     "breadcrumbs.enabled": false,
-
-    // Explorer
     "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "symbols.hidesExplorerArrows": false,
+
+    // App Customize UI++ - Extension
+
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+        ".editor-actions": "hidden",
+    },
+
+    "apc.listRow": {
+        "height": 22
+    },
+
+
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".title-actions": "width: 100%; display: flex; justify-content: center;",
+        ".monaco-dropdown": "display: none",
+        ".composite-bar-container": "width: 100%; display: flex; justify-content: center;"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
 }
